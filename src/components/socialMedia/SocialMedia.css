@@ -68,3 +68,13 @@
     text-align: center;
   }
 }
+
+.icon-animate {
+  transition: transform 0.2s;
+}
+.icon-animate:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+.icon-animate:active {
+  transform: scale(0.95);
+}

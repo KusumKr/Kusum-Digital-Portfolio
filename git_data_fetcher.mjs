@@ -1,3 +1,5 @@
+console.log("Script started");
+
 import fetch from "node-fetch";
 import fs from "fs";
 import dotenv from "dotenv";

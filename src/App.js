@@ -1,15 +1,16 @@
 import React from "react";
-import "./App.css";
+// import './App.css';
+// import './global';
 import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
-import { GlobalStyles } from "./global";
+// import { GlobalStyles } from "./global";
 
 function App() {
   return (
     <ThemeProvider theme={chosenTheme}>
       <>
-        <GlobalStyles />
+        {/* <GlobalStyles /> */}
         <div>
           <Main theme={chosenTheme} />
         </div>

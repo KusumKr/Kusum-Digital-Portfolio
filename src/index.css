@@ -54,6 +54,32 @@ body {
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animated pastel gradient background */
+  min-height: 100vh;
+  background: linear-gradient(
+    -45deg,
+    #f8e8ee,
+    #d0f1f7,
+    #e0f7fa,
+    #f9f6e7,
+    #e7e6fb,
+    #fbc2eb,
+    #c1f7c5
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 18s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 /* Media Query */
 @media (max-width: 1380px) {
