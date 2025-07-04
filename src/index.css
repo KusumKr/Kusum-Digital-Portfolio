@@ -89,3 +89,43 @@ body {
     line-height: normal;
   }
 }
+@media (max-width: 480px) {
+  body,
+  html {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+  .main,
+  .greet-main,
+  .experience-accord,
+  .skills-main-div,
+  .card-body,
+  .body-content {
+    padding: 8px 2px !important;
+    margin: 0 !important;
+  }
+  img,
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 1.2em !important;
+  }
+  .experience-section-title,
+  .educations-header,
+  .skills-header {
+    font-size: 1.1em !important;
+    padding-left: 4px !important;
+  }
+  .hire-btn {
+    padding: 8px 10px !important;
+    font-size: 1em !important;
+  }
+  .menu {
+    gap: 8px !important;
+  }
+}

@@ -259,9 +259,9 @@ const degrees = {
       alt_name: "MDU",
       duration: "2022 - 2026",
       descriptions: [
-        "⚡ Studied core subjects like Digital Electronics, Communication Systems, Microprocessors, VLSI, and Signal Processing, building a solid base in electronics and embedded systems.",
-        "⚡ Gained hands-on experience in both hardware and software, integrating programming, circuit design, and system-level understanding for real-world problem solving.",
-        "⚡ I was felicitated for securing 13th rank in MDU in my 2nd Semester university examinations ",
+        "Studied core subjects like Digital Electronics, Communication Systems, Microprocessors, VLSI, and Signal Processing, building a solid base in electronics and embedded systems.",
+        "Gained hands-on experience in both hardware and software, integrating programming, circuit design, and system-level understanding for real-world problem solving.",
+        "I was felicitated for securing 13th rank in MDU in my 2nd Semester university examinations ",
       ],
       // website_link: "http://iiitk.ac.in",
     },
@@ -272,9 +272,9 @@ const degrees = {
       alt_name: "Mayur Public School",
       // duration: "2021 - 2023",
       descriptions: [
-        "⚡ Studied core subjects including Physics, Chemistry, Mathematics, and Computer Science, building analytical and problem-solving skills.",
-        "⚡ Involved in academic and extracurricular activities that fostered leadership, discipline, and teamwork during school years.",
-        "⚡ Top 1% in academics.",
+        "Studied core subjects including Physics, Chemistry, Mathematics, and Computer Science, building analytical and problem-solving skills.",
+        "Involved in academic and extracurricular activities that fostered leadership, discipline, and teamwork during school years.",
+        "Top 1% in academics.",
       ],
       // website_link: "https://www.indiana.edu/",
     },
@@ -413,7 +413,7 @@ const experience = {
           duration: "May 2025 - Present",
           location: "New Delhi",
           description:
-            "Building scalable and responsive web applications using modern frameworks & Contributing to dynamic startup projects working across the MERN Stack.My role involved designing responsive user interfaces, integrating REST APIs, and handling backend logic with Node.js and MongoDB.",
+            "Building scalable and responsive web applications using modern frameworks & Contributing to dynamic startup projects working across the MERN Stack.My role involved designing responsive user interfaces, integrating REST APIs, and handling backend logic with Nodejs and MongoDB.",
           color: "#000000",
         },
         {
@@ -437,7 +437,7 @@ const experience = {
           logo_path: "devx-image.png",
           duration: "May 2024 - Present",
           description:
-            "As a Community Advocate at devXsphere, I actively engage with the tech community by promoting open-source contributions, organizing events, and supporting developers through mentorship and resources. I'm currently working to build a collaborative and inclusive ecosystem that empowers developers to learn and grow together. ",
+            "As a Community Advocate at devXsphere, I actively engage with the tech community by promoting open-source contributions, organizing events, and supporting developers through mentorship and resources. I'm currently working to build a collaborative and inclusive ecosystem that empowers developers to learn and grow together.",
           color: "#4285F4",
         },
         {
@@ -530,7 +530,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "West Vinod Nagar, New Delhi",
+    subtitle: "New Delhi, India",
     locality: "I.P. Extensiom",
     country: "India",
     postalCode: "110092",

@@ -106,7 +106,36 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                <div className="experience-card-description">
+                  {experience["description"]
+                    .split(/\.(?!\d)/)
+                    .filter(Boolean)
+                    .map((point, idx) => (
+                      <div
+                        key={idx}
+                        style={{
+                          display: "flex",
+                          alignItems: "flex-start",
+                          marginBottom: 4,
+                        }}
+                      >
+                        <span
+                          style={{
+                            color: "#4285F4",
+                            fontWeight: "bold",
+                            marginRight: 8,
+                            fontSize: "1.1em",
+                          }}
+                        >
+                          •
+                        </span>
+                        <span>
+                          {point.trim()}
+                          {point.trim().endsWith(".") ? "" : "."}
+                        </span>
+                      </div>
+                    ))}
+                </div>
               </div>
             </div>
           </div>

@@ -6,8 +6,59 @@
   font-family: "Google Sans Regular";
 }
 
+.experience-section {
+  margin-bottom: 40px;
+  padding: 24px 16px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(67, 198, 172, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.experience-section-title {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+  border-left: 8px solid #4285f4;
+  padding-left: 18px;
+  background: none;
+  border-radius: 0;
+  display: inline-block;
+  color: #234567;
+  box-shadow: none;
+}
+
+.experience-section-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (max-width: 1380px) {
+  .experience-section-title {
+    font-size: 35px;
+    padding-left: 12px;
+    border-left-width: 6px;
+  }
+}
+
 @media (max-width: 768px) {
   .experience-accord {
     margin: 20px;
+  }
+  .experience-section {
+    padding: 12px 4px;
+  }
+  .experience-section-title {
+    font-size: 30px;
+    padding-left: 8px;
+    border-left-width: 4px;
+  }
+  .experience-section-cards {
+    gap: 16px;
   }
 }

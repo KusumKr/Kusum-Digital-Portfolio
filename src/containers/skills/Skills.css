@@ -37,6 +37,25 @@
   line-height: normal;
 }
 
+.skill-point {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.skill-icon {
+  margin-right: 8px;
+  flex-shrink: 0;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.skill-text-content {
+  display: block;
+  color: inherit;
+  font-size: 20px;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

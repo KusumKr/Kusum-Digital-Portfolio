@@ -145,7 +145,7 @@
 }
 
 .experience-card-title {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Medium";
   margin-top: 10px;
   margin-bottom: 2px;
   margin-left: 0px;
@@ -154,13 +154,13 @@
 }
 
 .experience-card-company {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Medium";
   margin: 0;
   text-align: left;
 }
 
 .experience-card-duration {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Medium";
   margin-top: 10px;
   margin-bottom: 2px;
   margin-left: 0px;
@@ -182,18 +182,21 @@
 }
 
 .experience-card-location {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Medium";
   margin: 0;
   text-align: right;
   color: #868e96;
 }
 
 .experience-card-description {
+  font-family: "Google Sans Medium";
+  font-size: 14px;
+  line-height: 1.4;
   margin-top: 5px;
   margin-left: 10px;
-  text-align: justify;
   margin-right: 20px;
-  font-family: "Google Sans Regular";
+  text-align: justify;
+  color: #22223b;
 }
 
 .experience-card-company > a {

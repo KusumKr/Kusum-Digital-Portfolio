@@ -163,38 +163,48 @@
 }
 
 .header.custom-navbar {
-  background: none;
-  box-shadow: none;
-  border-radius: 18px;
-  padding: 24px 0;
-  margin: 0;
-  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: none;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  border-radius: 18px;
+  padding: 24px 32px;
+  margin: 16px auto 0 auto;
+  min-height: 80px;
+  max-width: 1200px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin-top: 0;
-  width: 100%;
+  width: 95%;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.navbar-menu {
-  width: 100%;
+.navbar-logo {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #43c6ac;
+  letter-spacing: 4px;
+  margin-right: 32px;
+  user-select: none;
+  height: 60px;
+  min-width: 80px;
+  font-style: italic;
+  font-family: "Montserrat", "Poppins", Arial, sans-serif;
+  text-shadow: 1px 2px 8px rgba(67, 198, 172, 0.15);
 }
 
 .menu {
   display: flex;
   align-items: center;
-  background: none;
-  box-shadow: none;
-  padding: 0;
-  border-radius: 0;
+  justify-content: center;
   gap: 36px;
+  flex: none;
 }
 
 .menu li {
@@ -210,64 +220,76 @@
 
 .menu li a,
 .menu li .hire-btn {
-  color: #22223b;
-  font-size: 1.1em;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0 8px;
-  transition: color 0.2s;
   position: relative;
+  display: block;
+  padding: 12px 22px;
+  text-decoration: none;
+  color: #22223b;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
 .menu li .active-link {
-  color: #00b894;
+  color: #43c6ac;
 }
 
 .menu li .active-link::after {
   content: "";
   display: block;
-  margin: 4px auto 0 auto;
-  width: 80%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
   height: 3px;
-  background: #00b894;
   border-radius: 2px;
+  background: linear-gradient(90deg, #43c6ac 0%, #f8ffae 100%);
+  transition: width 0.3s;
+  width: 100%;
 }
 
-.menu li a:hover:not(.hire-btn) {
-  color: #fff;
-  background: linear-gradient(90deg, #4f8cff 0%, #a084ee 100%);
-  box-shadow: 0 4px 16px rgba(67, 198, 172, 0.18);
-  transform: translateY(-2px) scale(1.05);
+.menu li a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  height: 3px;
+  border-radius: 2px;
+  background: transparent;
+  transition: background 0.3s;
+  width: 0;
 }
 
 .menu li a:active:not(.hire-btn) {
-  color: #00b894;
-  background: none;
-}
-
-.menu li .active-link {
-  color: #00b894;
-  background: none;
+  color: #43c6ac;
 }
 
 .hire-btn {
-  background: #0cd3ab;
+  align-self: center;
+  margin-left: 32px;
+  margin-right: 0;
+  background: linear-gradient(90deg, #43c6ac 0%, #1de9b6 100%);
   color: #fff !important;
-  border-radius: 24px;
-  padding: 10px 32px;
   font-weight: 700;
+  border-radius: 20px;
+  padding: 10px 32px;
+  box-shadow: 0 2px 8px rgba(67, 198, 172, 0.18);
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
   font-size: 1.1em;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-  box-shadow: 0 2px 12px rgba(202, 226, 221, 0.15);
   border: none;
+  outline: none;
   cursor: pointer;
   display: inline-block;
-  letter-spacing: 0.5px;
 }
 
 .hire-btn:hover {
-  background: #e72988;
-  color: #fff !important;
+  background: linear-gradient(90deg, #1de9b6 0%, #43c6ac 100%);
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(67, 198, 172, 0.25);
 }
 
 .projects-main {
@@ -281,4 +303,100 @@
   max-width: none;
   padding: 0;
   border-radius: 0;
+}
+
+@media (max-width: 960px) {
+  .header.custom-navbar {
+    padding: 16px 8px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .navbar-logo {
+    font-size: 1.3rem;
+    margin-right: 12px;
+    min-width: 60px;
+    height: 40px;
+    letter-spacing: 2px;
+  }
+  .menu {
+    gap: 18px;
+  }
+  .hire-btn {
+    padding: 8px 16px;
+    font-size: 1em;
+    margin-left: 12px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header.custom-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    min-height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 9999;
+    background: #fff;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 2px 12px rgba(67, 198, 172, 0.1);
+  }
+  .header .menu-icon {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    z-index: 10000;
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(67, 198, 172, 0.1);
+  }
+  .header .menu-icon .navicon {
+    height: 4px;
+    width: 28px;
+    background: #43c6ac;
+  }
+  .header .menu {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    background: #fff;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    box-shadow: 0 2px 12px rgba(67, 198, 172, 0.1);
+    border-radius: 0 0 18px 18px;
+    z-index: 9998;
+    padding: 0;
+    gap: 0;
+  }
+  .header .menu-btn:checked ~ .menu {
+    display: flex;
+  }
+  .menu li {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .menu li a,
+  .menu li .hire-btn {
+    width: 100vw;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 1.1em;
+    border-radius: 0;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+  }
+  .hire-btn {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0 0 18px 18px;
+  }
 }

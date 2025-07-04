@@ -58,13 +58,12 @@ class SkillSection extends Component {
                   <div>
                     {skill.skills.map((skillSentence, i) => {
                       return (
-                        <p
-                          key={i}
-                          className="subTitle skills-text"
-                          style={{ color: theme.secondaryText }}
-                        >
-                          {skillSentence}
-                        </p>
+                        <div key={i} className="skill-point">
+                          <span className="skill-icon">⚡</span>
+                          <span className="skill-text-content">
+                            {skillSentence.replace(/^⚡\s*/, "")}
+                          </span>
+                        </div>
                       );
                     })}
                   </div>
