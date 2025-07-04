@@ -362,17 +362,34 @@
   }
   .header .menu {
     display: none;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
     flex-direction: column;
-    width: 100vw;
-    background: #fff;
-    position: absolute;
-    top: 56px;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
     left: 0;
-    box-shadow: 0 2px 12px rgba(67, 198, 172, 0.1);
-    border-radius: 0 0 18px 18px;
-    z-index: 9998;
-    padding: 0;
-    gap: 0;
+    right: 0;
+    background: #fff;
+    z-index: 2000;
+    width: 100vw;
+  }
+  .header .menu.open {
+    display: flex;
+  }
+  .header .menu li a,
+  .header .menu li .hire-btn {
+    font-size: 1.1em;
+    padding: 14px 0;
+    min-height: 44px;
+  }
+  .header .menu li {
+    margin: 0;
   }
   .header .menu-btn:checked ~ .menu {
     display: flex;

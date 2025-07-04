@@ -129,3 +129,33 @@ body {
     gap: 8px !important;
   }
 }
+@media (max-width: 768px) {
+  .App,
+  main,
+  .main-content,
+  .container {
+    padding-top: 80px; /* Adjust if your header is taller/shorter */
+  }
+  html {
+    scroll-padding-top: 80px; /* Match your mobile navbar height */
+  }
+  .greet-main,
+  .projects-main,
+  .contact-main,
+  .skills-main-div,
+  .experience-accord,
+  .education-main,
+  .blogs-main,
+  .talks-main,
+  .organizations-main,
+  .certifications-main,
+  .opensource-main,
+  .main,
+  .container,
+  .main-content {
+    margin-top: 80px !important;
+  }
+}
+html {
+  scroll-padding-top: 80px; /* Match your navbar height */
+}
