@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "login": "TheAlgorithms",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20487725?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "roboflow",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53104118?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "freeCodeCamp",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9892522?v=4",
+      "__typename": "Organization"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "closed": 2,
+  "data": [
+    {
+      "id": "I_kwDOBRIuNs6Z9NVY",
+      "closed": true,
+      "title": "Add DOM Manipulation Content to JavaScript Roadmap section",
+      "createdAt": "2024-10-12T12:45:05Z",
+      "url": "https://github.com/kamranahmedse/developer-roadmap/issues/7449",
+      "number": 7449,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "developer-roadmap",
+        "url": "https://github.com/kamranahmedse/developer-roadmap",
+        "owner": {
+          "login": "kamranahmedse",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4921183?u=d6ed3573fc67b699e0c3bc2c7e1fb82c98c40dec&v=4",
+          "url": "https://github.com/kamranahmedse"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOM-by7s6ZvXYi",
+      "closed": true,
+      "title": "Quickdraw",
+      "createdAt": "2024-10-10T16:34:05Z",
+      "url": "https://github.com/KusumKr/Badges/issues/1",
+      "number": 1,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "Badges",
+        "url": "https://github.com/KusumKr/Badges",
+        "owner": {
+          "login": "KusumKr",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/176457598?u=5069ec834333286e45428a2421a8824467497f69&v=4",
+          "url": "https://github.com/KusumKr"
+        }
+      }
+    }
+  ],
+  "open": 0,
+  "totalCount": 2
+}

@@ -1,0 +1,352 @@
+{
+  "closed": 4,
+  "data": [
+    {
+      "id": "PR_kwDOIhIiw86AL_8S",
+      "title": "Update cookbooks-card.js",
+      "url": "https://github.com/roboflow/supervision/pull/1629",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2024-10-29T05:14:07Z",
+      "number": 1629,
+      "changedFiles": 1,
+      "additions": 70,
+      "deletions": 69,
+      "baseRepository": {
+        "name": "supervision",
+        "url": "https://github.com/roboflow/supervision",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/53104118?v=4",
+          "login": "roboflow",
+          "url": "https://github.com/roboflow"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOA8iScc5_DSHT",
+      "title": "Update prefix_sum.py",
+      "url": "https://github.com/TheAlgorithms/Python/pull/12138",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2024-10-18T05:08:39Z",
+      "number": 12138,
+      "changedFiles": 1,
+      "additions": 13,
+      "deletions": 9,
+      "baseRepository": {
+        "name": "Python",
+        "url": "https://github.com/TheAlgorithms/Python",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20487725?v=4",
+          "login": "TheAlgorithms",
+          "url": "https://github.com/TheAlgorithms"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOA8iScc5_DQpH",
+      "title": "Update prefix_sum.py",
+      "url": "https://github.com/TheAlgorithms/Python/pull/12137",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2024-10-18T05:01:56Z",
+      "number": 12137,
+      "changedFiles": 1,
+      "additions": 12,
+      "deletions": 9,
+      "baseRepository": {
+        "name": "Python",
+        "url": "https://github.com/TheAlgorithms/Python",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20487725?v=4",
+          "login": "TheAlgorithms",
+          "url": "https://github.com/TheAlgorithms"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOGK0TAc5-nwq0",
+      "title": "Create Kusum.md",
+      "url": "https://github.com/ossamamehmood/Hacktoberfest/pull/7029",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-15T05:11:09Z",
+      "number": 7029,
+      "changedFiles": 1,
+      "additions": 3,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Hacktoberfest",
+        "url": "https://github.com/ossamamehmood/Hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/40134503?u=8c2acad5a718493cd1f24273864ef7ca2dad5d9d&v=4",
+          "login": "ossamamehmood",
+          "url": "https://github.com/ossamamehmood"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOLWz6Cc5-Ze0B",
+      "title": "Added a \" Develop a Resource Library Section\" for Enhanced Learning in into.mdx",
+      "url": "https://github.com/freeCodeCamp/contribute/pull/408",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2024-10-12T06:29:35Z",
+      "number": 408,
+      "changedFiles": 1,
+      "additions": 4,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "contribute",
+        "url": "https://github.com/freeCodeCamp/contribute",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9892522?v=4",
+          "login": "freeCodeCamp",
+          "url": "https://github.com/freeCodeCamp"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOM-by7s5-TWA4",
+      "title": "Create hello.js",
+      "url": "https://github.com/KusumKr/Badges/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/176457598?u=5069ec834333286e45428a2421a8824467497f69&v=4",
+        "url": "https://github.com/KusumKr",
+        "login": "KusumKr"
+      },
+      "createdAt": "2024-10-11T06:03:32Z",
+      "number": 3,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Badges",
+        "url": "https://github.com/KusumKr/Badges",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/176457598?u=5069ec834333286e45428a2421a8824467497f69&v=4",
+          "login": "KusumKr",
+          "url": "https://github.com/KusumKr"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOM-by7s5-TT-G",
+      "title": "Create main.js",
+      "url": "https://github.com/KusumKr/Badges/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/176457598?u=5069ec834333286e45428a2421a8824467497f69&v=4",
+        "url": "https://github.com/KusumKr",
+        "login": "KusumKr"
+      },
+      "createdAt": "2024-10-11T05:55:06Z",
+      "number": 2,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Badges",
+        "url": "https://github.com/KusumKr/Badges",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/176457598?u=5069ec834333286e45428a2421a8824467497f69&v=4",
+          "login": "KusumKr",
+          "url": "https://github.com/KusumKr"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOEelfUs5-TQ6m",
+      "title": "Create Kusum.md",
+      "url": "https://github.com/tarunsinghofficial/HacktoberFest/pull/2883",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-11T05:41:28Z",
+      "number": 2883,
+      "changedFiles": 1,
+      "additions": 8,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "HacktoberFest",
+        "url": "https://github.com/tarunsinghofficial/HacktoberFest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/62840625?u=47604bc649530a5a1910c658377b8f9f8afed1e4&v=4",
+          "login": "tarunsinghofficial",
+          "url": "https://github.com/tarunsinghofficial"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOEelfUs5-TQR2",
+      "title": "Create Robo Speaker,py",
+      "url": "https://github.com/tarunsinghofficial/HacktoberFest/pull/2882",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-11T05:38:28Z",
+      "number": 2882,
+      "changedFiles": 1,
+      "additions": 29,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "HacktoberFest",
+        "url": "https://github.com/tarunsinghofficial/HacktoberFest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/62840625?u=47604bc649530a5a1910c658377b8f9f8afed1e4&v=4",
+          "login": "tarunsinghofficial",
+          "url": "https://github.com/tarunsinghofficial"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOGK0TAc5-PIYK",
+      "title": "Create Robo Speaker.py",
+      "url": "https://github.com/ossamamehmood/Hacktoberfest/pull/7025",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-10T14:55:58Z",
+      "number": 7025,
+      "changedFiles": 1,
+      "additions": 29,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Hacktoberfest",
+        "url": "https://github.com/ossamamehmood/Hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/40134503?u=8c2acad5a718493cd1f24273864ef7ca2dad5d9d&v=4",
+          "login": "ossamamehmood",
+          "url": "https://github.com/ossamamehmood"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOGK0TAc5-PF5n",
+      "title": "Create KusumKr.md",
+      "url": "https://github.com/ossamamehmood/Hacktoberfest/pull/7024",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-10T14:51:23Z",
+      "number": 7024,
+      "changedFiles": 1,
+      "additions": 3,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "Hacktoberfest",
+        "url": "https://github.com/ossamamehmood/Hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/40134503?u=8c2acad5a718493cd1f24273864ef7ca2dad5d9d&v=4",
+          "login": "ossamamehmood",
+          "url": "https://github.com/ossamamehmood"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOCRI4BM5-GYcS",
+      "title": "Update contributorsList.js",
+      "url": "https://github.com/fineanmol/Hacktoberfest2024/pull/7707",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-09T15:40:58Z",
+      "number": 7707,
+      "changedFiles": 1,
+      "additions": 5,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "Hacktoberfest2024",
+        "url": "https://github.com/fineanmol/Hacktoberfest2024",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/24794539?u=44e8d1a87130f0e53dc527ffc0e73ca8a18669ae&v=4",
+          "login": "fineanmol",
+          "url": "https://github.com/fineanmol"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOBk7Gw85-GLId",
+      "title": "Create hello_world_KusumKr.py",
+      "url": "https://github.com/AliceWonderland/hacktoberfest/pull/11869",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-09T15:14:11Z",
+      "number": 11869,
+      "changedFiles": 1,
+      "additions": 6,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "hacktoberfest",
+        "url": "https://github.com/AliceWonderland/hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4131409?v=4",
+          "login": "AliceWonderland",
+          "url": "https://github.com/AliceWonderland"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOBk7Gw85-GHKK",
+      "title": "Create Kusum_Kharayat.md",
+      "url": "https://github.com/AliceWonderland/hacktoberfest/pull/11868",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-09T15:06:16Z",
+      "number": 11868,
+      "changedFiles": 1,
+      "additions": 23,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "hacktoberfest",
+        "url": "https://github.com/AliceWonderland/hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4131409?v=4",
+          "login": "AliceWonderland",
+          "url": "https://github.com/AliceWonderland"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOBk7Gw859uyrK",
+      "title": "Update CONTRIBUTORS.md",
+      "url": "https://github.com/AliceWonderland/hacktoberfest/pull/11811",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-06T13:17:49Z",
+      "number": 11811,
+      "changedFiles": 1,
+      "additions": 6,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "hacktoberfest",
+        "url": "https://github.com/AliceWonderland/hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4131409?v=4",
+          "login": "AliceWonderland",
+          "url": "https://github.com/AliceWonderland"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOBk7Gw859ux92",
+      "title": "Update CONTRIBUTORS.md",
+      "url": "https://github.com/AliceWonderland/hacktoberfest/pull/11810",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2024-10-06T13:09:38Z",
+      "number": 11810,
+      "changedFiles": 1,
+      "additions": 6,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "hacktoberfest",
+        "url": "https://github.com/AliceWonderland/hacktoberfest",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4131409?v=4",
+          "login": "AliceWonderland",
+          "url": "https://github.com/AliceWonderland"
+        }
+      }
+    }
+  ],
+  "merged": 2,
+  "open": 10,
+  "totalCount": 16
+}
