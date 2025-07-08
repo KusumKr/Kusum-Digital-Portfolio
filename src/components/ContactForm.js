@@ -33,11 +33,14 @@ export default function ContactForm() {
     setLoading(true);
     setResult(null);
     try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
+      const res = await fetch(
+        "https://kusum-digital-portfolio.onrender.com/api/contact",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(form),
+        }
+      );
       const data = await res.json();
       if (data.success) {
         setResult({ success: true, message: "Message sent successfully!" });
